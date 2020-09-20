@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SettingsActivity"
+    tools:showIn="@layout/activity_edit_medication">
+
+
+    <ImageView
+        android:id="@+id/bg2"
+        android:layout_width="282dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="156dp"
+        android:background="#9C27B0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="295dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="132dp"
+        android:background="#F5F4F7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivTime"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="296dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clocklogo" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="212dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="232dp"
+        android:ems="10"
+        android:hint="DD/MM/YY"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivDate"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="232dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/calendarlogo" />
+
+    <ImageView
+        android:id="@+id/ivPill"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="172dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pilllogo" />
+
+    <EditText
+        android:id="@+id/etPillName"
+        android:layout_width="212dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="172dp"
+        android:ems="10"
+        android:hint="Pill Name"
+        android:inputType="date"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="212dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="296dp"
+        android:ems="10"
+        android:hint="00:00"
+        android:inputType="time"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bSavePill"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="424dp"
+        android:background="#9C27B0"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

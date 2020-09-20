@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AchievementActivity"
+    tools:showIn="@layout/activity_achievement">
+
+    <ImageView
+        android:id="@+id/ivMedal6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medallogo" />
+
+    <ImageView
+        android:id="@+id/ivMedal5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greymedallogo" />
+
+    <ImageView
+        android:id="@+id/ivMedal4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greymedallogo" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="276dp"
+        android:text="50 streaks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="276dp"
+        android:text="10 streaks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="276dp"
+        android:text="100 streaks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivMedal3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="111dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greymedallogo" />
+
+    <ImageView
+        android:id="@+id/ivMedal2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="111dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medallogo" />
+
+    <ImageView
+        android:id="@+id/ivMedal1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="111dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medallogo" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="172dp"
+        android:text="100 cups"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="172dp"
+        android:text="50 cups"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="172dp"
+        android:text="10 cups"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fsktm.um.edu.my.midsem.WaterIntakeActivity">
+
+    <item
+        android:id="@+id/action_target"
+        android:orderInCategory="103"
+        android:title="Edit Target"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_history"
+        android:orderInCategory="103"
+        android:title="History"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_reminder"
+        android:orderInCategory="103"
+        android:title="Reminder Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@drawable/yellowbelllogo"
+        android:orderInCategory="103"
+        android:background="@drawable/waterlogo"
+        android:title="Notifications"
+        app:showAsAction="ifRoom" />
+</menu>
